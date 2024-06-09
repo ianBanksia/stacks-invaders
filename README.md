@@ -25,6 +25,7 @@ Another important detail on this implementation is the use of SVG as a file type
 
 You can, of course, use any file type you want... limited by the ability of Clarity to handle binary and hashed files.
 
+
 # ART: STACKS INVADERS
 The Art makes reference to imaginary elements that may exist in the blockchain blocks, called INVADERS.
 
@@ -33,16 +34,24 @@ Each Stacks block can have only ONE Invader, that will be registered forever on 
 
 To facilitate trading and use of current tooling, the art and metadata will also be persisted on IFPS, making this the first DMT hybrid token on Stacks.
 
+# MINT PROCESS
+Only one Invader can be generated per block, which creates an interest dynamic regarding the block competition.
+- Users need to be aware of the risk of a mint not proceeding;
+- Users need to be aware that any STX spent acceleratting their transactions can't be refund;
+- Users need to be aware that only one transaction will succeed per block;
 
 # SMART-CONTRACT
 Please use the BACKEND folder to find any examples and SmartContract code.
 Deployed version can be found here: https://explorer.hiro.so/txid/SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.stacks-invaders-v1?chain=mainnet
 
+
 # USER INTERFACE
 Please use the FRONTEND folder to find UI example
 
+
 # IFPS and Image Generation
 (to be documented)
+
 
 # HOW TO HELP
 This project was done as a side-task during a week where I was suffering from hay fever and therefore not in a position to dedicate myself to DeFi and more complex numbers.

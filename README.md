@@ -42,7 +42,7 @@ Only one Invader can be generated per block, which creates an interest dynamic r
 
 # SMART-CONTRACT
 Please use the BACKEND folder to find any examples and SmartContract code.
-Deployed version can be found here: https://explorer.hiro.so/txid/SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.stacks-invaders-v1?chain=mainnet
+Deployed version can be found here: https://explorer.hiro.so/txid/SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.stacks-invaders-v0?chain=mainnet
 
 
 # USER INTERFACE

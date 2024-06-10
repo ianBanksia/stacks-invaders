@@ -47,7 +47,7 @@ Only one Invader can be generated per block, which creates an interest dynamic r
 - Users need to be aware that any STX spent acceleratting their transactions can't be refund;
 - Users need to be aware that only one transaction will succeed per block;
 - Price will start at 1 STX and will gradually increase to up to 10 STX
-- There's no need to rush, mint will be live for a little under 5000 Stacks blocks, which is ~42 days.
+- There's no need to rush, mint will be live for a little under 5000 Stacks blocks, which is ~34 days.
 
 
 # GONZO ORIENTED DEVELOPMENT

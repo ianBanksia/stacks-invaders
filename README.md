@@ -39,6 +39,15 @@ Only one Invader can be generated per block, which creates an interest dynamic r
 - Users need to be aware of the risk of a mint not proceeding;
 - Users need to be aware that any STX spent acceleratting their transactions can't be refund;
 - Users need to be aware that only one transaction will succeed per block;
+- Price will start at 1 STX and will gradually increase to up to 10 STX
+
+# GONZO ORIENTED DEVELOPMENT
+The development approach for this project finds inspiration on the ways of working estabilshed by Hunter S. Thompson when finding his own way of writing.
+Code is to me but a different language, ideas should be found and executed via a continous experimentation of a open mind.
+Most likely we will break som things in the process. Enjoy the ride.
+
+More on Gonzo Journalism can be found here:
+https://en.wikipedia.org/wiki/Gonzo_journalism
 
 # SMART-CONTRACT
 Please use the BACKEND folder to find any examples and SmartContract code.
@@ -46,7 +55,11 @@ Deployed version can be found here: https://explorer.hiro.so/txid/SPV8C2N59MA417
 
 
 # USER INTERFACE
-Please use the FRONTEND folder to find UI example
+Please use the FRONTEND folder to find UI example.
+Typescript is used as main language, for a few reasons:
+- It's type safe(r), which increases security;
+- No css + Tailwind: keep it simple and readable;
+- Readable (mostly) by the users: how can they verify if it's all giberish?
 
 
 # IFPS and Image Generation

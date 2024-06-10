@@ -64,6 +64,10 @@ https://en.wikipedia.org/wiki/Gonzo_journalism
 Please use the BACKEND folder to find any examples and SmartContract code.
 Deployed version can be found here: https://explorer.hiro.so/txid/SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.stacks-invaders-v0?chain=mainnet
 
+Functions worth exploring:
+- get-current-block-height-design: returns the Invader living on the current block. (Output is a SVG file)
+- get-dmt-for-block-height: returns the Invader Living on any block. (Input is a block number, Output is a SVG file)
+- get-token-svg: returns the art for a specific token ID. (Input is a token number, Output is a SVG file)
 
 
 # USER INTERFACE

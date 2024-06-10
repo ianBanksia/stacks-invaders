@@ -48,6 +48,8 @@ Only one Invader can be generated per block, which creates an interest dynamic r
 - Users need to be aware that only one transaction will succeed per block;
 - Price will start at 1 STX and will gradually increase to up to 10 STX
 - There's no need to rush, mint will be live for a little under 5000 Stacks blocks, which is ~34 days.
+- You will receive a token that won't load any image at first, IFPS data will be loaded gradually in a progrssive reveal of the art.
+- We are working with Gamma to check if they can read the images directly from the contract, plan is to reach out to Leather and XVerse next.
 
 
 # GONZO ORIENTED DEVELOPMENT

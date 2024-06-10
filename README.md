@@ -38,6 +38,7 @@ Each Stacks block can have only ONE Invader, that will be registered forever on 
 
 To facilitate trading and use of current tooling, the art and metadata will also be persisted on IFPS, making this the first DMT hybrid token on Stacks.
 
+There's an inspirational component from 80's arcade games, but we believe it to be a different element on its own and not copying any existing elements. If you own an IP and believe this art to be in breach, please get in touch, happy to make any adjustments.
 
 
 # MINT PROCESS
@@ -46,7 +47,7 @@ Only one Invader can be generated per block, which creates an interest dynamic r
 - Users need to be aware that any STX spent acceleratting their transactions can't be refund;
 - Users need to be aware that only one transaction will succeed per block;
 - Price will start at 1 STX and will gradually increase to up to 10 STX
-
+- There's no need to rush, mint will be live for a little under 5000 Stacks blocks, which is ~10 days.
 
 
 # GONZO ORIENTED DEVELOPMENT

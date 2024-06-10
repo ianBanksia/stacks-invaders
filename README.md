@@ -5,6 +5,8 @@ More documentation on Stacks can be found here:
 https://docs.stacks.co/
 
 
+
+
 # Digital Matter Theory
 Concept that evolves from the hability of one chain to understand their own blocks, and therefore allow a smart-contract to create art based on it.
 Stacks and Clarity, being high level programming artifacts, allow for that execution and art to be saved completelly on chain.
@@ -26,6 +28,8 @@ Another important detail on this implementation is the use of SVG as a file type
 You can, of course, use any file type you want... limited by the ability of Clarity to handle binary and hashed files.
 
 
+
+
 # ART: STACKS INVADERS
 The Art makes reference to imaginary elements that may exist in the blockchain blocks, called INVADERS.
 
@@ -34,12 +38,16 @@ Each Stacks block can have only ONE Invader, that will be registered forever on 
 
 To facilitate trading and use of current tooling, the art and metadata will also be persisted on IFPS, making this the first DMT hybrid token on Stacks.
 
+
+
 # MINT PROCESS
 Only one Invader can be generated per block, which creates an interest dynamic regarding the block competition.
 - Users need to be aware of the risk of a mint not proceeding;
 - Users need to be aware that any STX spent acceleratting their transactions can't be refund;
 - Users need to be aware that only one transaction will succeed per block;
 - Price will start at 1 STX and will gradually increase to up to 10 STX
+
+
 
 # GONZO ORIENTED DEVELOPMENT
 The development approach for this project finds inspiration on the ways of working estabilshed by Hunter S. Thompson when finding his own way of writing.
@@ -49,9 +57,12 @@ Most likely we will break som things in the process. Enjoy the ride.
 More on Gonzo Journalism can be found here:
 https://en.wikipedia.org/wiki/Gonzo_journalism
 
+
+
 # SMART-CONTRACT
 Please use the BACKEND folder to find any examples and SmartContract code.
 Deployed version can be found here: https://explorer.hiro.so/txid/SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.stacks-invaders-v0?chain=mainnet
+
 
 
 # USER INTERFACE
@@ -62,8 +73,11 @@ Typescript is used as main language, for a few reasons:
 - Readable (mostly) by the users: how can they verify if it's all giberish?
 
 
+
+
 # IFPS and Image Generation
 (to be documented)
+
 
 
 # HOW TO HELP

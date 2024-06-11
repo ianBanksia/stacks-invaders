@@ -5,7 +5,7 @@ This repository contains the first DMT art project based on the Stacks Blockchai
 More documentation on Stacks can be found here:
 https://docs.stacks.co/
 
-# Digital Matter Theory
+## Digital Matter Theory
 
 Concept that evolves from the hability of one chain to understand their own blocks, and therefore allow a smart-contract to create art based on it.
 Stacks and Clarity, being high level programming artifacts, allow for that execution and art to be saved completelly on chain.
@@ -28,7 +28,7 @@ Another important detail on this implementation is the use of SVG as a file type
 
 You can, of course, use any file type you want... limited by the ability of Clarity to handle binary and hashed files.
 
-# ART: STACKS INVADERS
+## ART: STACKS INVADERS
 
 The Art makes reference to imaginary elements that may exist in the blockchain blocks, called INVADERS.
 
@@ -39,7 +39,7 @@ To facilitate trading and use of current tooling, the art and metadata will also
 
 There's an inspirational component from 80's arcade games, but we believe it to be a different element on its own and not copying any existing elements. If you own an IP and believe this art to be in breach, please get in touch, happy to make any adjustments.
 
-# MINT PROCESS
+## MINT PROCESS
 
 Only one Invader can be generated per block, which creates an interest dynamic regarding the block competition.
 
@@ -51,7 +51,7 @@ Only one Invader can be generated per block, which creates an interest dynamic r
 - You will receive a token that won't load any image at first, IFPS data will be loaded gradually in a progrssive reveal of the art.
 - We are working with Gamma to check if they can read the images directly from the contract, plan is to reach out to Leather and XVerse next.
 
-# GONZO ORIENTED DEVELOPMENT
+## GONZO ORIENTED DEVELOPMENT
 
 The development approach for this project finds inspiration on the ways of working estabilshed by Hunter S. Thompson when finding his own way of writing.
 Code is to me but a different language, ideas should be found and executed via a continous experimentation of a open mind.
@@ -60,7 +60,7 @@ Most likely we will break som things in the process. Enjoy the ride.
 More on Gonzo Journalism can be found here:
 https://en.wikipedia.org/wiki/Gonzo_journalism
 
-# SMART-CONTRACT
+## SMART-CONTRACT
 
 Please use the BACKEND folder to find any examples and SmartContract code.
 Deployed version can be found here: https://explorer.hiro.so/txid/SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.stacks-invaders-v0?chain=mainnet
@@ -71,7 +71,7 @@ Functions worth exploring:
 - get-dmt-for-block-height: returns the Invader Living on any block. (Input is a block number, Output is a SVG file)
 - get-token-svg: returns the art for a specific token ID. (Input is a token number, Output is a SVG file)
 
-# USER INTERFACE
+## USER INTERFACE
 
 Please use the FRONTEND folder to find UI example.
 Typescript is used as main language, for a few reasons:
@@ -80,11 +80,11 @@ Typescript is used as main language, for a few reasons:
 - No css + Tailwind: keep it simple and readable;
 - Readable (mostly) by the users: how can they verify if it's all giberish?
 
-# IFPS and Image Generation
+## IFPS and Image Generation
 
 (to be documented)
 
-# HOW TO HELP
+## HOW TO HELP
 
 This project was done as a side-task during a week where I was suffering from hay fever and therefore not in a position to dedicate myself to DeFi and more complex numbers.
 As a result of that, there's plenty room for improvement in both backend and frontend implementations.

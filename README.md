@@ -77,6 +77,8 @@ Functions worth exploring:
 - get-dmt-for-block-height: returns the Invader Living on any block. (Input is a block number, Output is a SVG file)
 - get-token-svg: returns the art for a specific token ID. (Input is a token number, Output is a SVG file)
 
+Currently the fucntions are all packed in the contract directly, but plan ( suggestion by @tripnm0nkey ) is to deploy it as a trait (DMT-001/SIP-XXX) so it can be easily implemented by the existing ecosystem.
+
 ## USER INTERFACE
 
 Please use the FRONTEND folder to find UI example.

@@ -110,3 +110,26 @@ Few items you can work on:
 - Other file types: currently only SVG was tested, but nothing is blocking other file types to be implemented
 - Find and reporting bugs: Please open a PR, ideally with the corresponding solution.
 - Any new ideas: again just open a PR. I won't promise to work on it, but you are all welcome to expand and build on top of this one.
+
+## PHASE 2   
+## DMT Sandwich Engine
+
+Evolving from the Successful DMT mint process, we are deploying a new framework that allow the customisation of the original artwork: DMT Sandiwch Engine.
+From a techincal standpoint, this an additional umbrella contract that should call before by any participant marketplace or wallet. 
+
+This umbrella contract will execute these commands:
+- Get the number of layers and respective contracts (in our example: 4 layers)
+- Find and save original DMT Artwork;
+- Use the same token ID to find any skins to adjust the DMT colourwork;
+- Third call to retrieve any special traits;
+- Final call using the same token ID to find the correct background;
+- Return all the layers as outputs;
+
+The marketplace/wallet will then overlay all outputs so it can correct render the image.
+
+Ackonologinh this is a first try for am experimental model, a few adapctive measures are in place:
+- IPFS still in use and linking to a pre-rendered image as a persisted failsafe mechanism;
+- Custom background will allow both on-chain DMT and IPFS links, for better onboard of artists.
+
+Infographic here:
+https://roo-stx.com/dmt-sandwich
